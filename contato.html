@@ -1,24 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contato</title>
 
     <style>
+        body {
+            background-color: rgb(183, 190, 197);
+            width: 70%;
+            margin: 0 auto;
+            padding: 0;
+        }
 
+        .container {
+            display: flex;
+            background-color: rgba(110, 105, 98, 0);
+            padding: 50px;
+            display: flex;
+            flex-direction: auto;
+            flex-direction: column;
+
+        }
     </style>
 
 </head>
-<body>
-    
-<section class="contato">
-    <h1>Entre em contato conosco</h1>
-    <p><img src="./insta.jpg" width="30" height="30">Instagram</p>
-    <p><img src="./email.png" width="30" height="30">joaogabriel@cantor.com</p>
-    <p><img src="./telefone.png" width="30" height="30"></p>
 
-</section>
+<body>
+       <section class="mensagem">
+       <div class="container">
+        <h1>Contate-nos</h1>
+        <div class="item item-a"><p><img src="./email.png" width="30" height="30"> joaogabriel@cantor.com</p></div> 
+        <div class="item item-b"><p><img src="./insta.jpg" width="30" height="30"> Joao_Gabriel</p></div>
+        <div class="item item-c"><p><img src="./telefone.png" width="30" height="30"> Contate-nos</p></div>
+       </div>  
+       </section>
+          <section class="form">
+            <div class="container"></div>
+        <h3><Contate-nos></h3>
+        <div class="classe nome">
+            <label for="nome">Nome: </label>
+            <input type="text" id="nome" name="nome">
+        </div>
+        <div class="form-group">
+            <label for="Fale conosco">Fale Conosco: </label>
+            <input id="fale conosco" name="mensagem">
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </div>
+        </section>
+        
+
+        <a href="http://127.0.0.1:5500/index.html">Pagina Principal</a>
+
 
 </body>
+
 </html>
