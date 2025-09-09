@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap" rel="stylesheet">
+ <style>
+      body{
+        background-color: rgb(183, 190, 197);
+        width: 70%;
+        margin: 0 auto;
+        padding: 0;
+     }
+      h1{
+         font-family: "Preconnect",sans-serif;
+         color: rgb(13, 13, 39);
+         font-weight: 500px;
+         padding-left: 40%;
+         
+      }
+      h2{
+        font-family: "Preconnect",sans-serif;
+        color: rgb(54, 46, 46);
+      }
+      h3{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(54,46,46);
+      }
+      p{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+      a{
+        padding-left: 2%;
+      }
+ </style>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: rgba(9, 24, 44, 0.5);
+        }
+        h1 {
+            color: rgb(245, 243, 243);
+            font-family: Domine, sans-serif;
+            font-weight: 300;
+            height:auto;
+            
+            
+        }
+        h2 {
+            color: rgb(252, 247, 247);
+            font-weight: 100;
+            height: auto;
+            margin-right: 50%;
+            margin-top: 7%;
+        }
+        ul {
+            display: flex;
+            flex-direction: row;
+            list-style-type: none;
+            justify-content: left;
+        }
+        .container {
+            width: 1310px;
+            height: 100%;
+            margin: 0 auto;
+            /* border: solid #000 1px ; */
+        }
+        .cabecalho {
+            height: 122px;
+            background-color: transparent;
+            background-image: linear-gradient( rgba(9, 24, 44, 0.5));
+        }
+        .imagem{
+            margin-left: 50%;
+            margin-top: -45%;
+        }
+
+    </style>
+</head>
+<body>
+<div class="site">
+        <header class="cabecalho">
+            <div class="container">
+                <div class="logo">
+                    
+                </div>
+                <h1>JOÃO GABRIEL</h1>
+                <hr>
+                
+                 <h2>Nascido e criado em uma pequena chácara nos arredores de Santo Antônio de Goiás, a apenas 30 km de
+                    Goiânia, João
+                    Gabriel, hoje com 26 anos, sempre teve a roça como palco e o berrante como microfone. Filho de um
+                    tratorista e
+                    de uma merendeira escolar, desde pequeno acompanhava o pai nos afazeres do campo enquanto
+                    cantarolava modas
+                    antigas de Zezé Di Camargo & Luciano, Chrystian & Ralf e Leandro & Leonardo — seus ídolos de
+                    infância.
+                    <p>
+
+    <section class="secao joao">
+    
+ <h1>João Gabriel!!</h1>
+ <section class="paginas">
+        <a href="">História</a>
+        <a href="">Agenda</a>
+        <a href="">Discografia</a>
+        <a href="">Álbum de fotos</a>
+        <a href="">Letra de Música</a>
+        <a href="http://127.0.0.1:5500/contato.html">Contato</a>
+    </section>
+ <h2>Próximo show: </h2>
+   <main><img src="./barretos.jpg" width="500" height="500"></main>
+ </section>
+   <section class="ingressos">
+    <p>Garanta já o seu ingressso para o show em barretos!</p>
+    <a href="https://www.google.com/imghp?hl=pt-BR&tab=ri&ogbl">Ingressos</a>
+   </section>
+ 
+   <section class="feitos">
+    <h2>Ultimos shows</h2>
+    <h3>Festa do Peão</h3>
+    <main><img src="./peao.jpg" width="450" height="300"></main>
+    <hr>
+    <h3>Show em Goiania</h3>
+    <main><img src="./show1.jpg" width="450" height="300"></main>
+    <hr>
+    <h3>Barretos 2022</h3>
+    <main><img src="./show2.jpg" width="450" height="300"></main>
+    <hr>
+   </section>
+                    </p>
+                    Com 12 anos, ganhou do avô um violão surrado de três cordas e aprendeu a tocar de ouvido. Começou a
+                    se
+                    apresentar em festas de igreja, quermesses e pequenos rodeios da região. Durante muito tempo,
+                    percorreu bares e
+                    botecos do interior goiano com o violão nas costas e o chapéu na mão, cantando de graça ou por uma
+                    marmita e um
+                    refrigerante.
+                    <p>
+                    </p>
+                    A virada começou em 2023, quando foi convidado de última hora para substituir um cantor que faltou
+                    em um
+                    festival sertanejo em Inhumas. Mesmo sem banda, subiu ao palco só com o violão e a coragem. Cantou
+                    três músicas
+                    autorais — entre elas "Coração na Estrada" — e arrancou aplausos e lágrimas da plateia. A
+                    repercussão foi tanta
+                    que, nos dias seguintes, os vídeos da apresentação começaram a circular entre produtores da região.
+                </h2>
+                <div class="imagem"><img src="mariano.jpg" height="650px" width="650px"></div>
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/discografia.html">Discografia </a></li>
+                
+                    <li><a href="http://127.0.0.1:5500/cantor%20sertanejo/letras.html"> Letras</a></li>
+                </ul>
+
+
+</body>
+</html>
+</html>
